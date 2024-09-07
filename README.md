@@ -69,5 +69,12 @@ Teniendo las coordenadas necesarias para generar la trayectoria completa que seg
 
 Con esto el brazo primeramente se coloca en posición “Home”, después se dirige hacia el fusible, lo toma, regresa a la posición de home y se acerca a la caja para finalmente soltar el fusible encima de la caja. 
 
+Por cuestiones horarias no se alcanzó a probar la configuración de Home, si embargo sus principales diferencias son:
+
+- MOVE: Movimiento lineal, más preciso, controlado, pero puede ser más lento debido a las limitaciones de velocidad y aceleración.
+- GO: Movimiento más rápido, directo, sin control sobre la trayectoria intermedia, ideal para tareas que no requieran precisión en la trayectoria.
+  
+Ambos comandos son esenciales dependiendo de la aplicación del robot. Si buscas precisión y seguridad, utiliza MOVE; si la velocidad es más importante, entonces GO es la opción adecuada.
+
 </p>
 
