@@ -57,6 +57,17 @@ La posición “segundo” corresponde al punto donde el brazo toma el fusible, 
 
 ![image](https://github.com/user-attachments/assets/ebf394fe-d91f-442f-b0b0-a1cd8caa1bc5)
 
+Una vez tomado el fusible se regresa el brazo a la posición “primero” y después a “Home”.
+
+Ahora, es necesario soltar el fusible encima de la caja, por lo que se toma la posición “tercero” la cual corresponde a donde el brazo se encuentra encima de la caja y posteriormente se suelta el fusible mediante el comando “on 2”.
+
+![image](https://github.com/user-attachments/assets/97e77880-f3ab-4ce7-af2f-9f4b6c5daf91)
+
+Teniendo las coordenadas necesarias para generar la trayectoria completa que seguirá el brazo se pasó a programar el robot donde se colocan los puntos a los cuales se moverá el brazo mediante el comando “go”. Inicialmente se coloca el brazo la posición de “Home” y después se coloca en orden los putos para generar la trayectoria, así como el accionamiento de la pinza cuando esta tome el fusible y lo suelte.
+
+![image](https://github.com/user-attachments/assets/d4d6159c-69e2-4b76-863b-e2b282353a5e)
+
+Con esto el brazo primeramente se coloca en posición “Home”, después se dirige hacia el fusible, lo toma, regresa a la posición de home y se acerca a la caja para finalmente soltar el fusible encima de la caja. 
 
 </p>
 
