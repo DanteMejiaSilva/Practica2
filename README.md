@@ -1,4 +1,5 @@
 <p align="justify">
+
 # Práctica 2
 
 ## Integrantes:
@@ -26,6 +27,7 @@ En los robots Epson, como el Epson C4, los comandos GO y MOVE se utilizan para c
 
 ## Instrucciones
 Primero se empleó el simulador para estimar las coordenadas de los puntos clave para generar el movimiento del brazo robótico, sin embargo, al observar que sería muy complicado estimar coordenadas para generar el movimiento se optó por utilizar el brazo robótico real para tomar las coordenadas de los puntos para generar el movimiento.
+
 ![image](https://github.com/user-attachments/assets/70d517ff-50a3-42ec-8dd3-524b8f3317e8)
 
 </p>
