@@ -36,5 +36,8 @@ Primeramente, se colocó el brazo en la posición de “Home”.
 
 Después cuidadosamente tratando de evitar una colisión se movió el brazo a la posición “primero”, la cual corresponde al punto donde el brazo está encima del fusible, es decir, las coordenadas X y Y son las correctas, sin embargo, el brazo en la coordenada Z se encuentra desplazado un poco hacia arriba.
 
+![image](https://github.com/user-attachments/assets/875c6652-5476-442f-8070-d74bd59e48bc)
+
+
 </p>
 
