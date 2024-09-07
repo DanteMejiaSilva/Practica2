@@ -22,7 +22,7 @@ En los robots Epson, como el Epson C4, los comandos GO y MOVE se utilizan para c
 
 - Se utiliza cuando se necesita mover el robot rápidamente de un punto a otro sin importar la trayectoria que siga.
 
-- GO es útil en aplicaciones donde la velocidad es crítica, y la trayectoria no es importante, por ejemplo, cuando el robot necesita ir de una zona segura a otra sin importar qué tan precisa sea la trayectoria intermedia.
+- GO es útil en aplicaciones donde la velocidad es crítica, y la trayectoria no es importante, por ejemplo, cuando el robot necesita ir de una zona segura a otra sin importar qué tan precisa sea la trayectoria intermedia. [1]
 
 ## Instrucciones
 Primero se empleó el simulador para estimar las coordenadas de los puntos clave para generar el movimiento del brazo robótico, sin embargo, al observar que sería muy complicado estimar coordenadas para generar el movimiento se optó por utilizar el brazo robótico real para tomar las coordenadas de los puntos para generar el movimiento.
@@ -77,6 +77,18 @@ Por cuestiones horarias no se alcanzó a probar la configuración de Home, si em
 - GO: Movimiento más rápido, directo, sin control sobre la trayectoria intermedia, ideal para tareas que no requieran precisión en la trayectoria.
   
 Ambos comandos son esenciales dependiendo de la aplicación del robot. Si buscas precisión y seguridad, utiliza MOVE; si la velocidad es más importante, entonces GO es la opción adecuada.
+
+## Conclusiones
+***Atzin Morales Alejandre:*** La práctica en el laboratorio de robótica destacó la importancia de la interacción directa con el brazo robótico para obtener resultados precisos en la programación de movimientos. Aunque el simulador permitió una primera aproximación, se demostró que trabajar con el robot físico facilita la identificación de coordenadas exactas y el ajuste necesario en cada eje, evitando así posibles errores en la estimación de posiciones clave.
+
+El uso del brazo robótico para realizar una tarea sencilla, como tomar y soltar un fusible, reveló lo crucial que es coordinar los movimientos y la manipulación de la pinza mediante comandos apropiados. Esto no solo asegura la correcta ejecución de la tarea, sino también la repetitividad del proceso. En resumen, la práctica subraya la necesidad de una programación robusta y meticulosa para garantizar que el brazo realice las trayectorias esperadas con precisión y sin colisiones, mejorando la eficacia en aplicaciones industriales.
+
+***Dante Mejía Silva:*** Durante la práctica en el laboratorio de robótica, se evidenció la importancia de trabajar directamente con el brazo robótico real para obtener las coordenadas precisas que permiten generar trayectorias de movimiento efectivas. Aunque el simulador se empleó inicialmente para estimar las coordenadas de los puntos clave, se comprobó que la obtención manual de las posiciones resultó más eficiente, especialmente para evitar colisiones y garantizar el correcto desplazamiento en los ejes X, Y y Z.
+
+El proceso de manipulación del brazo robótico, desde la posición "Home" hasta la interacción con el fusible y su colocación en la caja, mostró cómo la programación secuencial de movimientos y comandos para controlar la pinza son fundamentales para completar las tareas automatizadas con precisión. Al tener las coordenadas correctas y programar la trayectoria en el sistema, se logró que el brazo realizara el ciclo completo de tomar y soltar el fusible sin errores. Esto subraya la importancia de una programación adecuada para garantizar un funcionamiento seguro y eficiente en entornos automatizados.
+
+## Referencias Bibliográficas 
+[1] 	EpsonCompany, «Especialistas en automatización industrial». 2024, https://www.epson.es/es_ES/robots
 
 </p>
 
