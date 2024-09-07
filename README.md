@@ -53,6 +53,10 @@ Después cuidadosamente tratando de evitar una colisión se movió el brazo a la
 
 ![image](https://github.com/user-attachments/assets/875c6652-5476-442f-8070-d74bd59e48bc)
 
+La posición “segundo” corresponde al punto donde el brazo toma el fusible, es decir, se coloca se disminuye en Z para bajar el brazo. Para tomar el brazo es necesario cerrar la pinza del brazo, esto mediante el comando “off 2”.
+
+![image](https://github.com/user-attachments/assets/ebf394fe-d91f-442f-b0b0-a1cd8caa1bc5)
+
 
 </p>
 
