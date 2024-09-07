@@ -29,6 +29,21 @@ Primero se empleó el simulador para estimar las coordenadas de los puntos clave
 
 ![image](https://github.com/user-attachments/assets/70d517ff-50a3-42ec-8dd3-524b8f3317e8)
 
+Posteriormente pasamos a programar el robot físico, el codigo usado es el siguiente:
+```
+Function main
+Home
+Go primero
+On 2
+Go segundo
+Off 2
+Go primero
+Home
+Go tercero
+On 2
+Home
+Fend
+```
 Primeramente, se colocó el brazo en la posición de “Home”.
 
 ![image](https://github.com/user-attachments/assets/a9802f0f-37f8-452f-9dea-7b1c052624fb)
